@@ -38,8 +38,8 @@ def items
 end
 
 def void_last_transaction
-  self.total - @transactions.last
-  binding.pry
+  return self.total - @transactions.last
+  
 end
 
 
