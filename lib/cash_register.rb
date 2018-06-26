@@ -18,8 +18,8 @@ end
 
 def add_item(title,price,quantity = 1)
     self.total += price*quantity
-    @list << title
-
+  quantity.times do @list << title
+  end
 end
 
 def apply_discount
