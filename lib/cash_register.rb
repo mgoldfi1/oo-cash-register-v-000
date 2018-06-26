@@ -19,8 +19,8 @@ def add_item(title,price,quantity = 1)
 end
 
 def apply_discount
-  self.total*((100.0-self.discount)/100)
-binding.pry
+  self.total*((100.0-self.discount)/100.0)
+
 end
 
 
