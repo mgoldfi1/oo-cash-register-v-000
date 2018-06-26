@@ -24,7 +24,7 @@ def apply_discount
     @total = new_price
   "After the discount, the total comes to $#{new_price.to_i}."
 elsif self.discount == nil
-     puts "There is no discount to apply."
+  "There is no discount to apply."
    end
 end
 
