@@ -1,6 +1,6 @@
 require 'pry'
 class CashRegister
-attr_accessor :discount, :total, :transaction 
+attr_accessor :discount, :total, :transaction
 
 
 
