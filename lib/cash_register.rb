@@ -1,7 +1,7 @@
 require 'pry'
 class CashRegister
 attr_accessor :discount, :total
-LIST = []
+
 
 
 
@@ -17,7 +17,7 @@ end
 
 def add_item(title,price,quantity = 1)
     self.total += price*quantity
-  quantity.times do LIST << title
+  quantity.times do @items << title
   end
 end
 
@@ -31,7 +31,8 @@ elsif self.discount == nil
 end
 
 def items
-  LIST
+  @items = []
+  @items
 end
 
 
