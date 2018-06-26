@@ -19,8 +19,12 @@ def add_item(title,price,quantity = 1)
 end
 
 def apply_discount
-   self.total.to_f*((100.0-self.discount.to_f)/100.0)
+  self.total = self.total.to_f*((100.0-self.discount.to_f)/100.0)
+  puts "After the discount, the total comes to $#{self.total}."
    binding.pry
+   if self.discount == nil
+     puts "There is no discount to apply."
+   end
 end
 
 
