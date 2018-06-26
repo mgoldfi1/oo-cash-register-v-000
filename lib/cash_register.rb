@@ -22,6 +22,7 @@ def add_item(title,price,quantity = 1)
   quantity.times do @list << title
   end
   @transactions << price*quantity
+  binding.pry
 end
 
 def apply_discount
