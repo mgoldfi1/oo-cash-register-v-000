@@ -14,7 +14,7 @@ def total
 end
 
 def add_item(title,price)
-  total = total+price
+  self.total + price
 end
 
 
