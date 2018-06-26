@@ -9,6 +9,8 @@ def initialize(discount = nil)
 end
 
 
+def total
+end
 
 
 
