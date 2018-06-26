@@ -3,8 +3,9 @@ attr_accessor :discount
 
 
 
-def initialize(discount = 20)
+def initialize(discount)
   @total = 0
+  @discount = discount
 end
 
 
