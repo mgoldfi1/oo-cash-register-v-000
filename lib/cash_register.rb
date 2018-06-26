@@ -36,7 +36,8 @@ def items
 end
 
 def void_last_transaction
-  self.items.
+  self.items
+end
 
 
 
