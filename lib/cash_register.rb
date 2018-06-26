@@ -17,7 +17,7 @@ end
 def add_item(title,price,quantity = 1)
   @list = []
   self.total += price*quantity
-  quantity.times do list << title
+  quantity.times do @list << title
   end
 end
 
