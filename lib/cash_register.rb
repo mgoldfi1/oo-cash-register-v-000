@@ -23,7 +23,7 @@ def add_item(title,price,quantity = 1)
   end
   product = price*quantity
   @transactions << product
-binding.pry
+
 end
 
 def apply_discount
