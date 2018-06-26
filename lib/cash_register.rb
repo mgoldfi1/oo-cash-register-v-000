@@ -15,9 +15,9 @@ def total
 end
 
 def add_item(title,price,quantity = 1)
-  @items = []
+  @list = []
   self.total += price*quantity
-  quantity.times do items << title
+  quantity.times do list << title
   end
 end
 
@@ -31,7 +31,7 @@ elsif self.discount == nil
 end
 
 def items
-  @items
+  @list
 end
 
 
