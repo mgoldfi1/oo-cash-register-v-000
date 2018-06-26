@@ -21,7 +21,7 @@ def add_item(title,price,quantity = 1)
     self.total += price*quantity
   quantity.times do @list << title
   end
-  @transactions << price*quantity
+  @transactions << (price*quantity)
   binding.pry
 end
 
