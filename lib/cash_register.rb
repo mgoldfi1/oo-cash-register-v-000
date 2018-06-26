@@ -1,6 +1,6 @@
 require 'pry'
 class CashRegister
-attr_accessor :discount, :total, :items
+attr_accessor :discount, :total
 
 
 
@@ -35,8 +35,8 @@ def items
   @list
 end
 
-
-
+def void_last_transaction
+  self.items.
 
 
 
