@@ -1,6 +1,6 @@
 class CashRegister
 
-def initialize
+def initialize(employee_discount)
   @total = 0
 end
 
