@@ -20,6 +20,7 @@ end
 
 def apply_discount
    self.total.to_f*((100.0-self.discount.to_f)/100.0)
+   binding.pry
 end
 
 
