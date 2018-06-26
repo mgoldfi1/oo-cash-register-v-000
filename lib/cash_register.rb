@@ -21,7 +21,8 @@ def add_item(title,price,quantity = 1)
     self.total += price*quantity
   quantity.times do @list << title
   end
-  @transactions << price*quantity
+  product = price*quantity
+  @transactions << product
 
 end
 
@@ -42,15 +43,6 @@ def void_last_transaction
   return self.total - @transactions.last
 
 end
-
-
-
-
-
-
-
-
-
 
 
 
