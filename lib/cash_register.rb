@@ -23,7 +23,7 @@ def apply_discount
   if self.discount != nil
     @total = new_price
   puts "After the discount, the total comes to $#{new_price}."
-   if self.discount == nil
+elsif self.discount == nil
      puts "There is no discount to apply."
    end
 end
