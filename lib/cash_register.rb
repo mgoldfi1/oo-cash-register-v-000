@@ -10,6 +10,7 @@ end
 
 
 def total
+  @total
 end
 
 
