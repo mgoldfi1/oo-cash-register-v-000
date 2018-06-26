@@ -20,10 +20,10 @@ end
 
 def apply_discount
   if self.discount != nil
-       @total = self.total.to_f*((100.0-self.discount.to_f)/100.0)
-  "After the discount, the total comes to $#{@total.to_i}."
+       @total = self.total*((100.0-self.discount)/100.0)
+       "After the discount, the total comes to $#{@total.to_i}."
 elsif self.discount == nil
-  "There is no discount to apply."
+    "There is no discount to apply."
    end
 end
 
